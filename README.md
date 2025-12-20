@@ -1,12 +1,12 @@
-# Koloryzacja — projekt zaliczeniowy (Inżynieria Oprogramowania)
+# Koloryzacja — projekt zaliczeniowy (Inżynieria Oprogramowania) 🎨
 
-Aplikacja składa się z backendu (FastAPI / TensorFlow / OpenCV) i frontendu (Next.js + React).
+Aplikacja składa się z backendu (FastAPI / TensorFlow / OpenCV) i frontendu (Next.js + React). 🧠
 
-## Zawartość repozytorium
+## Zawartość repozytorium 📁
 
-- Backend/ — serwis API i skrypty koloryzujące
+- Backend/ — serwis API i skrypty koloryzujące 🛠️
   - [Backend/api.py](Backend/api.py) — endpointy FastAPI, funkcje: [`colorize_image_from_bytes`](Backend/api.py), [`colorize_image`](Backend/api.py)
-- frontend/ — aplikacja Next.js z UI do uploadu, podglądu i pobierania
+- frontend/ — aplikacja Next.js z UI do uploadu, podglądu i pobierania 🎛️
   - [frontend/components/Colorizer.tsx](frontend/components/Colorizer.tsx) — główny komponent aplikacji
   - [frontend/components/colorizer/image-viewer.tsx](frontend/components/colorizer/image-viewer.tsx) — porównanie przed/po
   - [frontend/components/colorizer/sidebar.tsx](frontend/components/colorizer/sidebar.tsx) — suwaki do korekcji (hue/saturation/...)
@@ -32,11 +32,11 @@ npm install
 npm run dev
 ``` -->
 
-## Jak korzystać
+## Jak korzystać 🧭
 
 1. Na stronie głównej wrzuć czarno-białe zdjęcie (drag & drop lub wybór pliku).
 2. Aplikacja wyśle plik do backendu, otrzymasz kolorowany obraz.
 3. Użyj suwaków w bocznym panelu (frontend/components/colorizer/sidebar.tsx) aby dopracować efekt.
-4. Pobierz wynik przy użyciu przycisku „Pobierz”.
+4. Pobierz wynik przy użyciu przycisku „Pobierz”. ⤓
 
-> Aplikacja dostępna pod [http://localhost:3000](http://localhost:3000)
+> Aplikacja dostępna pod [http://localhost:3000](http://localhost:3000) 🌐
