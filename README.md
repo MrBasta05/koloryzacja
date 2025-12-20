@@ -34,7 +34,7 @@ npm run dev
 
 ## Jak korzystać
 
-Aplikacja dostępna pod [http://localhost:3000](http://localhost:3000)
+> Aplikacja dostępna pod [http://localhost:3000](http://localhost:3000)
 
 ### Strona
 
