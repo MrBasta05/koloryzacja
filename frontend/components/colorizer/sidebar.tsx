@@ -10,16 +10,16 @@ interface SidebarProps {
   adjustments: Adjustments;
   setAdjustments: React.Dispatch<React.SetStateAction<Adjustments>>;
   onReset: () => void;
-  onDownload: () => void; // <--- 1. Dodajemy nowy prop
-  isProcessed: boolean; // <--- 2. Dodajemy flagę, czy jest co pobierać
+  onDownload: () => void;
+  isProcessed: boolean;
 }
 
 export function Sidebar({
   adjustments,
   setAdjustments,
   onReset,
-  onDownload, // <--- 3. Odbieramy
-  isProcessed, // <--- 4. Odbieramy
+  onDownload,
+  isProcessed,
 }: SidebarProps) {
   const SLIDERS_CONFIG = [
     { label: "Barwa", key: "hue", min: 0, max: 360 },
@@ -59,11 +59,9 @@ export function Sidebar({
           </div>
         ))}
       </div>
-
-      {/* 5. Podpinamy funkcję pod przycisk */}
       <Button
-        className="w-full mt-6"
-        variant="outline"
+        className="w-full mt-6 bg-cyan-600"
+        // variant="outline"
         onClick={onDownload}
         disabled={!isProcessed}
       >
