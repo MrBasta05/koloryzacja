@@ -34,11 +34,9 @@ npm run dev
 
 ## Jak korzystać
 
-Aplikacja dostępna pod [http://localhost:3000](http://localhost:3000)
-
-### Strona
-
 1. Na stronie głównej wrzuć czarno-białe zdjęcie (drag & drop lub wybór pliku).
 2. Aplikacja wyśle plik do backendu, otrzymasz kolorowany obraz.
 3. Użyj suwaków w bocznym panelu (frontend/components/colorizer/sidebar.tsx) aby dopracować efekt.
 4. Pobierz wynik przy użyciu przycisku „Pobierz”.
+
+> Aplikacja dostępna pod [http://localhost:3000](http://localhost:3000)
