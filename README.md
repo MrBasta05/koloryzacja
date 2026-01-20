@@ -12,6 +12,8 @@ Aplikacja składa się z backendu (FastAPI / TensorFlow / OpenCV) i frontendu (N
   - [frontend/components/colorizer/sidebar.tsx](frontend/components/colorizer/sidebar.tsx) — suwaki do korekcji (hue/saturation/...)
   - [frontend/app/globals.css](frontend/app/globals.css) — zmienne kolorów i styl globalny
   - [frontend/app/layout.tsx](frontend/app/layout.tsx), [frontend/components/ThemeProviderClient.tsx](frontend/components/ThemeProviderClient.tsx)
+ 
+- model.py — kod modelu
 
 <!-- ## Uruchomienie — Backend
 1. Stwórz środowisko wirtualne i zainstaluj zależności:
